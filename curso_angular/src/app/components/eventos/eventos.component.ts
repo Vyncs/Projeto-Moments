@@ -13,6 +13,6 @@ export class EventosComponent implements OnInit {
   }
 
   showMessage(): void {
-    this.show = !this.show;
+    this.show = !this.show; //toggle
   }
 }
